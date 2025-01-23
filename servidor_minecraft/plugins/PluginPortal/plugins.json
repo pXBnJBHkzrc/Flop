@@ -1,0 +1,29 @@
+[
+  {
+    "platformId": "5qkQnnWO",
+    "name": "PluginPortal",
+    "version": "2.2.0",
+    "platform": "MODRINTH",
+    "sha256": "2335b3bec20e30490f68858839689f6643e1a5052cfc5a16fe562ca115819cdf",
+    "sha512": "e3e759e3aaeaf552d7cacc667f7a7d90b1d0620e5a2b4a238f0edec9889b57b5a7699583e962b7f6c6378bd3cda78311dc6ed1d8e672c4ba460e716abf434a3c",
+    "installedAt": 1737624456673
+  },
+  {
+    "platformId": "Multiverse-Core",
+    "name": "Multiverse-Core",
+    "version": "4.3.14",
+    "platform": "HANGAR",
+    "sha256": "27630e97c68612f2ccd1af729055528e22887923cce6f6cecc34e45583e5ae11",
+    "sha512": "5fdd8177ee592b2f4cf17a89f33798d148f091c467668d429d9334e3cce693cd2c6baf91feb8d5a23744ff3338b5c375bf7f70375cb01408ba4b3c0d440054eb",
+    "installedAt": 1737617836927
+  },
+  {
+    "platformId": "Multiverse-Portals",
+    "name": "Multiverse-Portals",
+    "version": "4.2.3",
+    "platform": "HANGAR",
+    "sha256": "ea6e50c771d9782021e0bc49b95a4eda14fbc2ff2051f231fc6aeec64be5f9a0",
+    "sha512": "ff6e6eb5ac391239e9df9535b8834cb19b103c8175714bced2d31537bed0e707041a2fed834d1828c8e8a60c821a48b7eaa9381891d6ad7fa83ed00b50d75543",
+    "installedAt": 1737617909680
+  }
+]

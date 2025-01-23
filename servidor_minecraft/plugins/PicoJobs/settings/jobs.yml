@@ -1,0 +1,281 @@
+#################################################################################
+#                                                                               #
+# Configuraciones de trabajos                                                   #
+#                                                                               #
+#################################################################################
+# En esta categoría puedes crear, editar y modificar trabajos para el plugin
+# Si deseas una lista completa de tipos de trabajos, por favor visita https://github.com/Picono435/PicoJobs/wiki/Types-of-jobs
+jobs:
+  # Este es un ejemplo de trabajo de cazador
+  hunter:
+    displayname: "&eCazador"
+    tag: "&e[H]"
+    types: [kill_entity, fill_entity]
+    method: 10
+    require-permission: false
+    salary: 1053
+    max-salary: 50000
+    salary-frequency: 0.3
+    method-frequency: 0.4
+    economy: DEFAULT
+    use-whitelist: true
+    whitelist:
+      kill_entity: ["minecraft:cow", "minecraft:pig", "minecraft:chicken", "minecraft:sheep"]
+      fill_entity: ["minecraft:cow"]
+    work-message: "mata %a% animales"
+    gui:
+      slot: 11
+      item: "GOLDEN_SWORD"
+      item-data: 0
+      enchanted: false
+      lore:
+        - "&8Gana cazando"
+        - "&8 animales"
+
+  # Este es un ejemplo de trabajo de encantador
+  enchanter:
+    displayname: "&cEncantador"
+    tag: "&c[E]"
+    types: [enchanting]
+    method: 10
+    require-permission: false
+    salary: 1200
+    max-salary: 50000
+    salary-frequency: 0.3
+    method-frequency: 0.4
+    economy: DEFAULT
+    work-message: "encanta %a% objetos"
+    gui:
+      slot: 13
+      item: "ENCHANTING_TABLE"
+      item-data: 0
+      enchanted: false
+      lore:
+        - "&8Gana encantando"
+        - "&8 objetos"
+
+  # Este es un ejemplo de trabajo de leñador
+  woodcutter:
+    displayname: "&6Leñador"
+    tag: "&6[W]"
+    types: [break]
+    method: 15
+    require-permission: false
+    salary: 800
+    max-salary: 50000
+    salary-frequency: 0.3
+    method-frequency: 0.4
+    economy: DEFAULT
+    use-whitelist: true
+    whitelist:
+      break:
+        - minecraft:oak_wood
+        - minecraft:oak_log
+        - minecraft:birch_wood
+        - minecraft:birch_log
+        - minecraft:jungle_wood
+        - minecraft:jungle_log
+        - minecraft:acacia_wood
+        - minecraft:acacia_log
+        - minecraft:dark_oak_wood
+        - minecraft:dark_oak_log
+        - minecraft:spruce_wood
+        - minecraft:spruce_log
+    work-message: "corta %a% maderas"
+    gui:
+      slot: 15
+      item: "DIAMOND_AXE"
+      item-data: 0
+      enchanted: false
+      lore:
+        - "&8Gana cortando"
+        - "&8 árboles"
+
+  # Este es un ejemplo de trabajo de minero
+  miner:
+    displayname: "&7Minero"
+    tag: "&7[M]"
+    types: [break]
+    method: 10
+    require-permission: false
+    salary: 1500
+    max-salary: 50000
+    salary-frequency: 0.3
+    method-frequency: 0.4
+    economy: DEFAULT
+    use-whitelist: true
+    whitelist:
+      break:
+        - minecraft:gold_ore
+        - minecraft:iron_ore
+        - minecraft:coal_ore
+        - minecraft:lapis_ore
+        - minecraft:diamond_ore
+        - minecraft:redstone_ore
+        - minecraft:emerald_ore
+        - minecraft:nether_quartz_ore
+        - minecraft:nether_gold_ore
+        - minecraft:copper_ore
+        - minecraft:deepslate_gold_ore
+        - minecraft:deepslate_iron_ore
+        - minecraft:deepslate_coal_ore
+        - minecraft:deepslate_lapis_ore
+        - minecraft:deepslate_diamond_ore
+        - minecraft:deepslate_redstone_ore
+        - minecraft:deepslate_emerald_ore
+        - minecraft:deepslate_copper_ore
+    work-message: "mina %a% minerales"
+    gui:
+      slot: 17
+      item: "DIAMOND_PICKAXE"
+      item-data: 0
+      enchanted: false
+      lore:
+        - "&8Gana minando"
+        - "&8 minerales"
+
+  # Este es un ejemplo de trabajo de constructor
+  builder:
+    displayname: "&dConstructor"
+    tag: "&d[B]"
+    types: [place]
+    method: 35
+    require-permission: false
+    salary: 70
+    max-salary: 50000
+    salary-frequency: 0.3
+    method-frequency: 0.4
+    economy: DEFAULT
+    use-whitelist: true
+    whitelist:
+      place: ["minecraft:bricks"]
+    work-message: "coloca %a% ladrillos"
+    gui:
+      slot: 29
+      item: "BRICKS"
+      item-data: 0
+      enchanted: false
+      lore:
+        - "&8Gana construyendo"
+        - "&8 con ladrillos"
+
+  # Este es un ejemplo de trabajo de excavador
+  digger:
+    displayname: "&3Excavador"
+    tag: "&3[D]"
+    types: [break]
+    method: 25
+    require-permission: false
+    salary: 120
+    max-salary: 50000
+    salary-frequency: 0.3
+    method-frequency: 0.4
+    economy: DEFAULT
+    use-whitelist: true
+    whitelist:
+      break: ["minecraft:dirt", "minecraft:grass", "minecraft:grass_block"]
+    work-message: "excava %a% tierras"
+    gui:
+      slot: 31
+      item: "IRON_SHOVEL"
+      item-data: 0
+      enchanted: false
+      lore:
+        - "&8Gana excavando"
+        - "&8 tierra"
+
+  # Este es un ejemplo de trabajo de artesano
+  craftsman:
+    displayname: "&aArtesano"
+    tag: "&a[C]"
+    types: [craft]
+    method: 10
+    require-permission: false
+    salary: 69
+    max-salary: 50000
+    salary-frequency: 0.5
+    method-frequency: 0.8
+    economy: DEFAULT
+    work-message: "crea %a% objetos"
+    gui:
+      slot: 33
+      item: "CRAFTING_TABLE"
+      item-data: 0
+      enchanted: false
+      lore:
+        - "&8Gana creando"
+        - "&8 objetos"
+
+  # Este es un ejemplo de trabajo de pescador
+  fisherman:
+    displayname: "&bPescador"
+    tag: "&b[F]"
+    types: [fishing]
+    method: 25
+    require-permission: false
+    salary: 240
+    max-salary: 50000
+    salary-frequency: 0.2
+    method-frequency: 0.4
+    economy: DEFAULT
+    use-whitelist: false
+    whitelist:
+      fishing: ["minecraft:name_tag"]
+    work-message: "pesca %a% peces"
+    gui:
+      slot: 35
+      item: "FISHING_ROD"
+      item-data: 0
+      enchanted: false
+      lore:
+        - "&8Gana pescando"
+        - "&8 peces"
+
+  # Este es un ejemplo de trabajo de armero
+  weaponsmith:
+    displayname: "&8Armero"
+    tag: "&8[W]"
+    types: [repair]
+    method: 8
+    require-permission: false
+    salary: 280
+    max-salary: 50000
+    salary-frequency: 0.6
+    method-frequency: 0.6
+    economy: DEFAULT
+    work-message: "repara %a% herramientas"
+    gui:
+      slot: 49
+      item: "DIAMOND_SWORD"
+      item-data: 0
+      enchanted: false
+      lore:
+        - "&8Gana reparando"
+        - "&8 herramientas"
+
+  # Este es un ejemplo de trabajo de asesino
+  killer:
+    displayname: "&9Asesino"
+    tag: "&9[K]"
+    types: [kill]
+    method: 20
+    require-permission: false
+    salary: 360
+    max-salary: 50000
+    salary-frequency: 0.5
+    method-frequency: 0.8
+    economy: DEFAULT
+    use-whitelist: false
+    whitelist:
+      kill: ["weaponsmith"]
+    work-message: "mata %a% personas"
+    gui:
+      slot: 51
+      item: "IRON_SWORD"
+      item-data: 0
+      enchanted: false
+      lore:
+        - "&8Gana matando"
+        - "&8 jugadores"
+        - "&c TU CABEZA TENDRA UN PRECIO"
+        - "&c Cuidado"
