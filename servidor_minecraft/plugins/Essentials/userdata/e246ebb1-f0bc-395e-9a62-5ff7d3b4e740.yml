@@ -16,7 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1737674040679
   login: 1737673513622
 money: '0'
 last-account-name: BL4Z3_RAFA
+logoutlocation:
+  world: e1c55f4b-66b8-48ba-ac02-d0fbecdb22ff
+  world-name: world
+  x: -4.315234867348908
+  y: 79.0
+  z: 0.00494967112970667
+  yaw: 130.25146484375
+  pitch: 1.4997527599334717

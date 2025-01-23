@@ -269,3 +269,29 @@ expected <block end>, but found '<block mapping start>'
 [23:05:13] [Server thread/INFO]: BL4Z3_RAFA joined the game
 [23:05:13] [Server thread/INFO]: BL4Z3_RAFA[/10.241.114.193:59861] logged in with entity id 370 at ([world]10.5, 82.0, -6.5)
 [23:05:15] [Server thread/INFO]: [SeeMore] Set view distance of BL4Z3_RAFA to 10 (client view distance is 29).
+[23:09:10] [User Authenticator #2/INFO]: UUID of player xXRafaelo is 6fa10fed-0ef4-3269-a858-f0e98964c966
+[23:09:10] [Server thread/INFO]: xXRafaelo joined the game
+[23:09:10] [Server thread/INFO]: xXRafaelo[/10.241.27.45:55390] logged in with entity id 882 at ([world]-36.7370429529237, 63.0, -296.59273810944086)
+[23:09:11] [Server thread/INFO]: [SeeMore] Set view distance of xXRafaelo to 10 (client view distance is 12).
+[23:09:15] [Async Chat Thread - #0/INFO]: [Not Secure] <xXRafaelo> oe pon /job
+[23:09:20] [Server thread/INFO]: xXRafaelo issued server command: /gamemode creative
+[23:09:29] [Async Chat Thread - #1/INFO]: [Not Secure] <xXRafaelo> dale enter oe
+[23:09:30] [Server thread/INFO]: BL4Z3_RAFA issued server command: /jobs
+[23:09:54] [Async Chat Thread - #0/INFO]: [Not Secure] <xXRafaelo> dale nuevo job para elegir una mision
+[23:10:10] [Server thread/INFO]: BL4Z3_RAFA issued server command: /jobsadmin
+[23:10:17] [Async Chat Thread - #1/INFO]: [Not Secure] <xXRafaelo> oe dije job
+[23:10:18] [Server thread/INFO]: BL4Z3_RAFA issued server command: /jobs
+[23:10:29] [Server thread/INFO]: BL4Z3_RAFA issued server command: /jobs
+[23:10:33] [Async Chat Thread - #0/INFO]: [Not Secure] <xXRafaelo> oe pon en la antorcha roja
+[23:10:58] [Async Chat Thread - #0/INFO]: [Not Secure] <xXRafaelo> todavia no puse economia porque no veia
+[23:11:07] [Server thread/INFO]: BL4Z3_RAFA has made the advancement [Stone Age]
+[23:11:27] [Server thread/INFO]: BL4Z3_RAFA issued server command: /papi}
+[23:11:40] [Server thread/INFO]: BL4Z3_RAFA issued server command: /picojobs
+[23:12:31] [Server thread/INFO]: BL4Z3_RAFA issued server command: //toggleplace
+[23:12:50] [Server thread/INFO]: BL4Z3_RAFA issued server command: /placeholderapi
+[23:13:02] [Server thread/INFO]: BL4Z3_RAFA issued server command: /placeholderapi:placeholderapi
+[23:13:08] [Server thread/INFO]: BL4Z3_RAFA issued server command: /papi help
+[23:14:00] [Server thread/INFO]: BL4Z3_RAFA lost connection: Disconnected
+[23:14:00] [Server thread/INFO]: BL4Z3_RAFA left the game
+[23:15:02] [Server thread/INFO]: xXRafaelo lost connection: Disconnected
+[23:15:02] [Server thread/INFO]: xXRafaelo left the game
