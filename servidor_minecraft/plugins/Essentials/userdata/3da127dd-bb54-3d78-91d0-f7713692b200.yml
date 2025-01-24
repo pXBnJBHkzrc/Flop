@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 10.241.100.6
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1737685214891
+  login: 1737684905866
+money: '0'
+last-account-name: SoyGabox196
+logoutlocation:
+  world: e1c55f4b-66b8-48ba-ac02-d0fbecdb22ff
+  world-name: world
+  x: 7.784977778350043
+  y: 78.0
+  z: 9.911002659258902
+  yaw: 80.7803955078125
+  pitch: 6.564653396606445

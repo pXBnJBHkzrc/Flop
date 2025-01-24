@@ -11,12 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 0
+  lastteleport: 1737676955021
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
-  login: 1737673420925
+  logout: 1737686631476
+  login: 1737686312478
 money: '0'
 last-account-name: javy121314
+logoutlocation:
+  world: e1c55f4b-66b8-48ba-ac02-d0fbecdb22ff
+  world-name: world
+  x: -2.18008613686618
+  y: 78.0
+  z: 9.378048262288983
+  yaw: -147.45001220703125
+  pitch: 3.0000150203704834
+lastlocation:
+  world: beab846b-d902-4fa0-9c8b-71cbfc8348c8
+  world-name: spawn
+  x: -10.123196256377643
+  y: -60.0
+  z: -0.1786268529269023
+  yaw: 125.39996337890625
+  pitch: 4.049997329711914
